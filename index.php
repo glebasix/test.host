@@ -84,11 +84,7 @@ echo "<br /> $sarff sred arefm<br />";
 ////////////////////////////
 // task 8
 
-$arrt = array(array(mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10)),
-    array(mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10)),
-    array(mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10)),
-    array(mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10)),
-    array(mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10),mt_rand(-10,10)));
+$arrt = getArrayRandom();
 echo "task 8 <br /> massiv do<br /> ";
 print_r($arrt);
 for ($i = 0; $i < 5; $i++) {
